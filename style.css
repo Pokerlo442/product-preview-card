@@ -43,7 +43,6 @@ main{
  justify-content: center;
 align-items: center;
 min-height: 100vh;  
-
 }
 .grid-container{
   display: grid;
