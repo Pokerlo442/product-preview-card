@@ -33,24 +33,21 @@
 
 body{
   background-color: var(--clr-cream);
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  
-}
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;}
 
 main{
  display: flex;
  flex-direction: column;
  justify-content: center;
-align-items: center;
-min-height: 100vh;  
-position: relative;
+ align-items: center;
+ min-height: 100vh;  
+ position: relative;
 }
 .grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 600px;
-  justify-self: center; 
-  margin-bottom: 5rem; 
+
 }
 .product-img{
   display: none;  
@@ -58,8 +55,7 @@ position: relative;
 .img-container{
   background: radial-gradient(rgba(0,0,0,0.05) 50%, rgba(0,0,0,.15)), url("./images/image-product-desktop.jpg");
   background-size: cover;
-  border-radius: 10px 0 0 10px;
-}
+  border-radius: 10px 0 0 10px;}
 
 .container{
   background-color: var(--clr-white);
