@@ -39,13 +39,11 @@ body{
 .flex-body{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .attribution{
   margin-top: 2.5rem;
 }
-/* NEUSTART */
 main{
   display: grid;
   align-items: center;
