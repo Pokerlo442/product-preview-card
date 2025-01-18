@@ -80,6 +80,7 @@ main{
 .header{
   font-family: 'Fraunces', sans-serif;
   line-height: 100%;
+  font-size: 2rem;
   margin-bottom: 4px;
   color: var(--clr-veryDarkBlue);}
 .text{
