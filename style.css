@@ -65,7 +65,7 @@ main{
 
 .container{
   background-color: var(--clr-white);
-  padding: 2rem;
+  padding: 2rem 1.5rem 2rem 2rem;
   border-radius:0 10px 10px 0;}
 .flex{
   display: flex;
