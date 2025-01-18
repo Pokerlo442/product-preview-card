@@ -36,11 +36,20 @@ body{
   background-color: var(--clr-cream);
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
+.flex-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.attribution{
+  margin-top: 2.5rem;
+}
 /* NEUSTART */
 main{
   display: grid;
   align-items: center;
-  min-height: 100vh;
+  min-height: 88.5vh;
 }
 .grid-container{
   display: grid;
@@ -114,8 +123,9 @@ main{
   letter-spacing: .6px;
   justify-content: center;
   gap: .6rem;
+  cursor: pointer;
 }
-.btn:hover{
+.btn:hover, .btn:focus{
   background-color: var(--clr-veryDarkBlue);
 }
 
